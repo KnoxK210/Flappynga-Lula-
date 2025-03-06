@@ -332,9 +332,9 @@ function update() {
   pipe.update();
   UI.update();
 }
-
+//background (ceu)
 function draw() {
-  sctx.fillStyle = "#30c0df";
+  sctx.fillStyle = "#2E82F0";
   sctx.fillRect(0, 0,
     scrn.width, scrn.height);
   bg.draw();
